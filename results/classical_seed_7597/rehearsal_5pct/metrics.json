@@ -1,0 +1,50 @@
+{
+  "model_kind": "classical",
+  "rehearsal_ratio": 0.05,
+  "shots": null,
+  "seed": 7597,
+  "epochs_per_task": 5,
+  "average_final_balanced_accuracy": 0.16666666666666666,
+  "average_forgetting": 0.6264189693801344,
+  "head_parameter_drift_by_task": [
+    0.0,
+    1.7887465427560705,
+    5.154768460364616
+  ],
+  "accuracy_matrix_R": [
+    [
+      0.75,
+      0.0,
+      0.0
+    ],
+    [
+      0.22954545454545455,
+      0.5028379387602688,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.5
+    ]
+  ],
+  "task_class_names": [
+    [
+      "BKL",
+      "VASC"
+    ],
+    [
+      "BCC",
+      "AKIEC"
+    ],
+    [
+      "NV",
+      "DF"
+    ]
+  ],
+  "omitted_class": "MEL",
+  "device": "cuda",
+  "train_images": 7121,
+  "test_images": 1781,
+  "head_trainable_parameters": 2082
+}

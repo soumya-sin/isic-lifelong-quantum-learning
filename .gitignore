@@ -1,0 +1,5 @@
+env
+# ISIC 2018 dataset
+isic2018_task3/images/
+isic2018_task3/labels/
+isic2018_task3/*.zip

@@ -1,0 +1,50 @@
+{
+  "model_kind": "quantum",
+  "rehearsal_ratio": 0.2,
+  "shots": null,
+  "seed": 7597,
+  "epochs_per_task": 5,
+  "average_final_balanced_accuracy": 0.22594209069618906,
+  "average_forgetting": 0.443846202341348,
+  "head_parameter_drift_by_task": [
+    0.0,
+    0.9361713335364872,
+    2.545704196180391
+  ],
+  "accuracy_matrix_R": [
+    [
+      0.4909090909090909,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.5753547423450336,
+      0.0
+    ],
+    [
+      0.17857142857142858,
+      0.0,
+      0.4992548435171386
+    ]
+  ],
+  "task_class_names": [
+    [
+      "BKL",
+      "VASC"
+    ],
+    [
+      "BCC",
+      "AKIEC"
+    ],
+    [
+      "NV",
+      "DF"
+    ]
+  ],
+  "omitted_class": "MEL",
+  "device": "cuda",
+  "train_images": 7121,
+  "test_images": 1781,
+  "head_trainable_parameters": 2076
+}

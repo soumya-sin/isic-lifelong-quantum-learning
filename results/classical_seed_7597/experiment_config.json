@@ -1,0 +1,30 @@
+{
+  "seed": 7597,
+  "epochs_per_task": 5,
+  "model_kind": "classical",
+  "rehearsal_percentages": [
+    0,
+    5,
+    10,
+    20,
+    100
+  ],
+  "quantum_shots_run": null,
+  "dataset_path": "C:\\Users\\soumya\\Downloads\\course",
+  "task_classes": [
+    [
+      "BKL",
+      "VASC"
+    ],
+    [
+      "BCC",
+      "AKIEC"
+    ],
+    [
+      "NV",
+      "DF"
+    ]
+  ],
+  "omitted_class": "MEL",
+  "device": "cuda"
+}
